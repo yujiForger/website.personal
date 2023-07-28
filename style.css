@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+:root {
+Â  --rf-brand: #fb8d19;
+Â  --rf-brand-rgb: 248, 54, 145;
+Â  --rf-dark: #212237;
+Â  --rf-body: #989898;
+Â  --f-main: "Raleway", sans-serif;
+Â  --transition: all .6s cubic-bezier(.165, .84, .44, 1);
+Â  --shadow: 0px, 15px, 30px, rgba(0,0,0,0.1);
+}
+}
+body {
+  font-family: var(--f-main);
+  color: grey;
+  line-height: 1.8;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
+  font-weight: 700;
+  color: black;
+  font-family: var(--f-main);
+}
+
+.text-brand {
+  color:orange;
+}
+
+.navbar {
+  padding-top: 30px
+  padding-bottom: 30px;
+}
+
+#home {
+  background-image: url(yujiii.png);
+  background-color: grey;
+  background-size: cover;
+  
+}
+
+.btn-brand {
+  background-color: orange;
+}
+
+.section-padding {
+  color: black;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+}
+
+.section-title {
+ max-width: 550px;
+ margin: 0 auto 60px auto;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 2px;
+background-color: orange;
+  display: inline-block;
+}
+.about-icon {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: grey;
+}
