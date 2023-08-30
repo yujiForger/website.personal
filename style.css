@@ -33,7 +33,7 @@ h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
 
 #home {
   background-image: url(yujiii.png);
-  background-color: #f5f5dc;
+  background-color: #f5f5cd;
   background-size: cover;
   
 }
@@ -79,12 +79,15 @@ background-color: orange;
 video {
   height: 200px;
   width: 300px;
+  margin: 0 auto;
+   display: inline-block;
+
 }
 
 audio {
-  margin: 20px;
   height: 50px;
-  width: 10;
+  width: 300px;
+  margin: 20px;
 }
 
 h4 {
@@ -97,4 +100,10 @@ h1 {
 
 body {
   background-color: #f5f5dc;
+	}
+}
+
+
+.back {
+ color: black;
 }
