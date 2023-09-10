@@ -12,7 +12,7 @@
 }
 body {
   font-family: var(--f-main);
-  color: grey;
+  color: #eed6d3;
   line-height: 1.8;
 }
 
@@ -22,8 +22,14 @@ h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
   font-family: var(--f-main);
 }
 
+.fw-bold {
+  color: #ddbc95;
+}
+
+
 .text-brand {
-  color:orange;
+  color:#b38867;
+  width: 300px;
 }
 
 .navbar {
@@ -33,14 +39,18 @@ h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
 
 #home {
   background-image: url(yujiii.png);
-  background-color: #f5f5cd;
+  background-color: #626d71;
   background-size: cover;
   
 }
 
-.btn-brand {
-  background-color: orange;
+.btn-ig {
+  background-color: #feda77;
 }
+
+.btn-brand {
+ background-color: #feda77;
+	}
 
 .section-padding {
   color: black;
@@ -63,7 +73,7 @@ background-color: orange;
 .about-icon {
   width: 30px;
   height: 30px;
-  background-color: orange;
+  background-color: #feda77;
   color: white;
   font-size: 27px;
   display: inline-flex;
@@ -72,7 +82,7 @@ background-color: orange;
 }
 
 .container {
-  color: grey;
+  color: ##9ebfcf;
 }
 
 
@@ -91,7 +101,7 @@ audio {
 }
 
 h4 {
-  color: grey;
+  color: white;
 }
 
 h1 {
@@ -99,11 +109,19 @@ h1 {
 }
 
 body {
-  background-color: #f5f5dc;
+  background-color: ##9ebfcf;
 	}
 }
 
 
 .back {
  color: black;
+}
+
+.line {
+  margin: 0 auto;
+}
+
+.about {
+ background-color: ##9ebfcf; 
 }
